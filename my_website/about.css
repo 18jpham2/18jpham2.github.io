@@ -1,0 +1,30 @@
+body{ background-color: #ffb3ec;
+    margin:50px;
+}
+table, tr, td, th{ background-color: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+    border-collapse: collapse;
+}
+td{ padding: 9px;}
+.table{position: relative;
+}
+.hobbies{position:relative;
+    left:250px;
+    bottom:270px;
+    background-color: #ffffff
+}
+.songs{position:relative;
+    bottom:150px;
+}
+.quote{position: relative;
+    bottom:200px;
+    left:250px;
+    background-color:#ffffff;
+}
+.shiro{position:relative ;
+    bottom:100px;
+}
+.cat{position:relative;
+left:250px;
+bottom:100px;
