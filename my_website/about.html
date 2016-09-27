@@ -4,18 +4,30 @@
     <meta charset="utf-8">
     <title>About Me</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <style>
+    table,th,tr,td{background-color:white;
+    border:2px solid black;
+    border-collapse:collapse;
+    padding:5px;
+    }
+    #quote{background-color:#ffffff;}
+    </style>
   </head>
   <body>
-    <div class="browse">
-    <a href="index.html">Home</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a class="active" href="about.html">About Me</a>
+    <header>
+      <div class="nav">
+        <ul>
+          <li class="index"><a class="active" href="index.html">Home</a></li>
+          <li class="portfolio"><a href="portfolio.html">Portfolio</a></li>
+          <li class="about"><a href="about.html">About Me</a></li>
+        </ul>
+      </div>
+    </header>
     </div>
-    <nav>
-      
-    </nav>
-      <h1>About Me!</h1>
+    <div id="Name">
+      <p>About Me!</p>
       <p>Jimmy Pham<br>Grade 11</br><p><img class="cat" height="150" src="images/swag.png"></img>
+    </div>
     <div class="table">
       <table>
         <tr><th>Period</th><th>Class</th></tr>
@@ -25,9 +37,9 @@
         <tr><td>4</td><td>AP Comp. Sci. Prin.</td></tr>
         <tr><td>5</td><td>English 3</td></tr>
         <tr><td>6</td><td>Algebra 2</td></tr>
-        </table>
+      </table>
     </div>
-    <div class="hobbies">
+    <div id="hobbies">
     <h3>My Hobbies</h3>
     <ul>
       <li>Computers</li>
@@ -35,11 +47,11 @@
       <li>Content Creation</li>
     </ul>
     </div>
-    <div class="quote">
+    <div id="quote">
     <q>Money in the bank, Pimping ain't easy</q>
     <p>- Doublelift</p>
     </div>
-    <div class="songs">
+    <div id="songs">
     <h3>My Most Listened To Songs</h3>
     <ol type="1">
       <li>nakinyko- Love Jigen e Youkoso (Space Dandy x Musiq Soulchild)</li>
