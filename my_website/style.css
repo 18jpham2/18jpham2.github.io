@@ -4,11 +4,11 @@ body {
   background: #ffb3ec;
   font-family: 'Oswald', sans-serif;
 }
- 
+ /* Navigation Bar from http://css-snippets.com/*/
 .nav ul {
   list-style: none;
   background-color: #ff66d9;
-  text-align: center;
+  text-align: left;
   padding: 0;
   margin: 0;
   border-bottom: 4px solid white;
@@ -18,12 +18,12 @@ body {
   font-size: 1.2em;
   line-height: 40px;
   height: 40px;
-  border-bottom: 4px solid #FFFFFF;
+  border-bottom: 4px solid #ffe6f9;
 }
  
 .nav a {
   text-decoration: none;
-  color: #fff;
+  color: #ffFFFF;
   display: block;
   transition: .3s background-color;
 }
