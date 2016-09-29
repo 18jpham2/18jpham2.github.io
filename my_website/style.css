@@ -3,6 +3,7 @@ body {
   padding: 0;
   background: #ffb3ec;
   font-family: 'Oswald', sans-serif;
+  position:relative;
 }
  /* Navigation Bar from http://css-snippets.com/*/
 .nav ul {
@@ -37,6 +38,16 @@ body {
   color: #444;
   cursor: default;
 }
+.footer{position:absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width:100%;
+  background-color: #ff66d9;
+  text-align: center;
+  height: 100px;
+  border-top:4px solid white;
+}
  
 @media screen and (min-width: 600px) {
   .nav li {
@@ -52,6 +63,7 @@ body {
     display: inline-block;
     margin-right: -4px;
   }
+  .footer{position:relative;}
  
   /* Options 2 - Float
   .nav li {
