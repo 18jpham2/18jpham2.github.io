@@ -18,26 +18,32 @@
     }
     .table{text-align:center;
       width:400px;
-      position: relative;
-      margin-left: 70px;
+      position: absolute;
+      left:550px;
     }
     #quote{background-color:white;
       width:300px;
-      position:relative;
-      margin-left: 70px;
-      
+      position:absolute;
+      left:825px;
+      border:2px solid black;
+      text-align:center;
     }
     #hobbies{background-color:white;
       width:200px;
-      position:relative;
-      margin-left: 70px;
-      bottom:230px;
-      left:250px;
+      height:120px;
+      position:absolute;
+      top:300px;
+      left:825px;
+      border:2px solid black;
     }
-    #songs{margin-left: 70px;}
+    #songs{border:2px solid black;
+      width:500px;
+      background-color:white;
+    }
     </style>
   </head>
   <body>
+    <div class="container">
         <div class="nav">
           <ul>
             <li><a href="index.html">Home</a></li>
@@ -62,7 +68,7 @@
       </table>
     </div>
     <div id="hobbies">
-    <h3>My Hobbies</h3>
+    <p>My Hobbies</p>
     <ul>
       <li>Computers</li>
       <li>Video Games</li>
@@ -70,6 +76,7 @@
     </ul>
     </div>
     <div id="quote">
+    <h1></h1>
     <q>Money in the bank, Pimping ain't easy</q>
     <p>- Doublelift</p>
     </div>
@@ -90,5 +97,6 @@
     <p>Contact Information<br>I use the username Ninjawaffulz for literally everything just google me.</p>
     <a href="http://lmgtfy.com/?q=Ninjawaffulz">Google Me</a>
     </div>
+  </div>
   </body>
 </html>
