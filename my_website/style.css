@@ -1,14 +1,14 @@
 body {
   margin: 0;
   padding: 0;
-  background: #ffb3ec;
+  background: #e9dce7;
   font-family: 'Oswald', sans-serif;
   position:relative;
 }
  /* Navigation Bar from http://css-snippets.com/*/
 .nav ul {
   list-style: none;
-  background-color: #ff66d9;
+  background-color: #f1b6c5;
   text-align: left;
   padding: 0;
   margin: 0;
@@ -19,12 +19,13 @@ body {
   font-size: 1.2em;
   line-height: 40px;
   height: 40px;
-  border-bottom: 4px solid #ffe6f9;
+  border-bottom: 4px solid #FFFFFF;
+  border-right: 4px solid #FFFFFF
 }
  
 .nav a {
   text-decoration: none;
-  color: #ffFFFF;
+  color: #FFFFFF;
   display: block;
   transition: .3s background-color;
 }
@@ -39,7 +40,7 @@ body {
   cursor: default;
 }
 .footer{
-  background-color: #ff66d9;
+  background-color: #f1b6c5;
   text-align: center;
   border-top:4px solid white;
 }
