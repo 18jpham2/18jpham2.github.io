@@ -10,13 +10,13 @@
         .content{background:white;
         }
         .textbox{
-            top:55px;
+            top:70px;
             position: absolute;
             left:210px;
             width:500px;
         }
-        .table{
-            top:170px;
+        .info{
+            top:185px;
             position: absolute;
             left:210px;
             max-width:500px;
@@ -29,8 +29,75 @@
         }
         .head{
             width:700px;
-            border:2px solid black;
+            border:2px solid gray;
             margin-left:10px;
+        }
+        .nav ul{
+            background-color: #b5b5b5
+        }
+        .nav a {
+            color:black;
+        }
+        .nav li{
+            border-bottom: 4px solid #b5b5b5;
+            border-right: 4px solid #FFFFFF;
+            text-align:center;
+        }
+        body {
+            background-color:white;
+        }
+        .img {
+            margin: auto;
+            display: block;
+        }
+        .table {
+            border: 2px gray solid;
+            width: 52%;
+            float:left;
+            margin-left:10px;
+            margin-top:10px;
+        }
+        .sidebar {
+            border: 2px gray solid;
+            width: 40%;
+            float:right;
+            position:absolute;
+            top:68px;
+            right:80px;
+        }
+        td > p {
+            vertical-align:top;
+        }
+        .sidebar th{
+            border-bottom: 2px gray solid;
+        }
+        .contri {
+            border: 2px gray solid;
+            width: 40%;
+            float:right;
+            position:absolute;
+            top:565px;
+            right:80px;
+        }
+        .contri th{
+            border-bottom: 2px gray solid;
+        }
+        .contri li{
+            padding-bottom:10px;
+        }
+        .sidebar li{
+            padding-bottom:10px;
+        }
+        .footer{position:absolute;
+            height:150px;
+            top:1100px;
+            width:100%;
+            background-color:white;
+            border-top:2px gray solid;
+        }
+        .footer, .push {
+            height: 150px; /* .push must be the same height as .footer */
+            margin-bottom: 0px;
         }
         </style>
         <body>
@@ -49,11 +116,11 @@
                         <img class="portrait" height="200" src="images/martin.jpg"></img>
                         <div class="textbox">
                             <h1 class="text">Martin Hellman</h1>
-                            <h3 class="text">Read our new book! <i>A New Map For Relationships</i></h3>
+                            <h3 class="text">Read my new book! <i>A New Map For Relationships</i></h3>
                             <h6 class="text">NYC, New York | Professor Emeritus of Electrical Engineering</h6>
-                            <p class="text">Invented Public Key Encryption</p>
+                            <p class="text">Inventor of Public Key Encryption</p>
                         </div>
-                        <div class="table">
+                        <div class="info">
                             <table>
                                 <tr>
                                     <td><small>Current</small></td> <td class="left">Retired Book Author</td>
@@ -68,13 +135,102 @@
                         </div>
                     </div>
                 </div>
+                <div class="table">
+                    <table>
+                        <tr>
+                            <th>Public Key Encryption</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img width="344px" src="images/pcrypt.gif"></img>
+                            </td>
+                            <td>
+                                <p>Public Key Encryption works by</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img width="344px" src="https://pbs.twimg.com/media/CbWjOH1UAAEpOnP.jpg"></img>
+                            </td>
+                            <td>
+                                <p>Public Key Encryption works by</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img width="344px" src="http://img.tfd.com/cde/_DIFFHEL.GIF"></img>
+                            </td>
+                            <td>
+                                <p>Public Key Encryption works by</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="sidebar">
+                    <table>
+                        <tr>
+                            <th><u>Facts:</u></th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Born in New York, 1945</li>
+                                    <li>Graduated from Bronx High School of Science in 1962</li>
+                                    <li>Received a Bachelor in electrical engineering from New York University in 1966</li>
+                                    <li>Received a Master in 1967 and a Ph. D. in 1969 from Stanford</li>
+                                    <li>Left IBM to teach in Electrical Engineering at MIT in 1969</li>
+                                    <li>Published New Directions in Cryptography in 1976</li>
+                                    <li>Played a leading role in the late 1970s' and early 1980s' first ''crypto war''</li>
+                                    <li>Worked with Soviet scientists in the 1980s to reduce nuclear weapons</li>
+                                    <li>Won the IEEE Centennial Medal in 1984</li>
+                                    <li>Won the Electronic Frontier Foundation Pioneer Award in 1994</li>
+                                    <li>Became professor emeritus in electrical engineering at Stanford University in 1996</li>
+                                    <li>Was elected to the National Academy of Engineering in 2002</li>
+                                    <li>Won the ACM Turing Award (Nobel Prize of Computer Science) in 2015</li>
+                                </ul>
+                            </tr>
+                        </td>
+                    </table>
+                </div>
+                <div class="contri">
+                    <table>
+                        <tr>
+                            <th><u>Contributions to Computer Science:</u></th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Born in New York, 1945</li>
+                                    <li>Graduated from Bronx High School of Science in 1962</li>
+                                    <li>Received a Bachelor in electrical engineering from New York University in 1966</li>
+                                    <li>Received a Master in 1967 and a Ph. D. in 1969 from Stanford</li>
+                                    <li>Left IBM to teach in Electrical Engineering at MIT in 1969</li>
+                                    <li>Published New Directions in Cryptography in 1976</li>
+                                    <li>Played a leading role in the late 1970s' and early 1980s' first ''crypto war''</li>
+                                    <li>Worked with Soviet scientists in the 1980s to reduce nuclear weapons</li>
+                                    <li>Won the IEEE Centennial Medal in 1984</li>
+                                    <li>Won the Electronic Frontier Foundation Pioneer Award in 1994</li>
+                                    <li>Became professor emeritus in electrical engineering at Stanford University in 1996</li>
+                                    <li>Was elected to the National Academy of Engineering in 2002</li>
+                                    <li>Won the ACM Turing Award (Nobel Prize of Computer Science) in 2015</li>
+                                </ul>
+                            </tr>
+                        </td>
+                    </table>
+                </div>
                 <div class="push"></div>
             </div>
-            <div class="footer">
-                <a href=sources.html>Sources</a>
-                <p>Contact Information<br>I use the username Ninjawaffulz for literally everything just google me.</p>
-                <a href="http://lmgtfy.com/?q=Ninjawaffulz">Google Me</a>
-            </div>
         </body>
+        <footer>
+            <div class="footer">
+                    <u><b>MLA Citations:</b></u>
+                    <p>Jeffrey, Yost R. "Martin Hellman." A.M. Turing Award. ACM, 2015. Web. 19 May 2017.</p>
+                    <a href="http://amturing.acm.org/award_winners/hellman_4055781.cfm">Source</a>
+                    <p>Martin Hellman." Computer History Museum. Computer History Museum, 2011. Web. 19 May 2017.</p>
+                    <a href="http://www.computerhistory.org/fellowawards/hall/martin-hellman/">Source</a>
+                    <p>Martin E. Hellman Professor Emeritus of Electrical Engineering." Martin E. Hellman Home Page. Stanford University, n.d. Web. 19 May 2017.</p>
+                    <a href="http://www-ee.stanford.edu/~hellman/">Source</a>
+                </div>
+        </footer>
     </head>
 </html>
