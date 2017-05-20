@@ -5,6 +5,12 @@
     <title>About Me</title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <style>
+    .container{
+      height:100%;
+    }
+    .content{
+      margin:10px 10px 10px 10px;
+    }
     table,th,tr,td{background-color:white;
     border:2px solid black;
     border-collapse:collapse;
@@ -14,38 +20,38 @@
     border:black 2px solid;
     height:110px;
     width:300px;
-    position: relative;
     padding:10px;
+    margin:20px 10px 10px 10px;
     }
     #name h1,h2{
       margin-top:10px;
     }
     .table{text-align:center;
       width:400px;
-      position: absolute;
-      left:550px;
+      padding:10px;
     }
     #quote{background-color:white;
       width:300px;
-      position:absolute;
-      left:825px;
+      height:60px;
       border:2px solid black;
       text-align:center;
+      margin:10px;
     }
     .hobbies{background-color:white;
       text-align:center;
-      width:200px;
-      height:150px;
-      position:absolute;
-      top:300px;
-      left:825px;
+      width:160px;
+      height:120px;
       border:2px solid black;
+      margin:10px;
     }
     #songs{border:2px solid black;
       width:500px;
       background-color:white;
+      margin:10px;
     }
-    .shiro{padding-top:15px;}
+    .shiro{
+      margin:10px;
+    }
     </style>
   </head>
   <body>
@@ -60,57 +66,59 @@
             <li><a href="https://tnguyen19.github.io/my_website/p4.html">Go Back</a></li>
           </ul>
         </div>
-  <div class="content">
-    <div id="name">
-      <img class="cat" height="110" src="images/swag.png"></img>
-      <h1 style="position:relative;left:120px;bottom:130px">About Me!</h1>
-      <h2 style="position:relative;left:120px;bottom:140px">Jimmy Pham<br>Grade 11</br></h2>
-    </div>
-    <div class="table">
-      <table>
-        <tr><th>Period</th><th>Class</th></tr>
-        <tr><td>1</td><td>Computer Graphics 2</td></tr>
-        <tr><td>2</td><td>US History</td></tr>
-        <tr><td>3</td><td>Vietnamese 2</td></tr>
-        <tr><td>4</td><td>AP Comp. Sci. Prin.</td></tr>
-        <tr><td>5</td><td>English 3</td></tr>
-        <tr><td>6</td><td>Algebra 2</td></tr>
-      </table>
-    </div>
-    <div class="hobbies">
-    <p>My Hobbies</p>
-    <ul>
-      <li>Helping People!</li>
-      <li>Computers</li>
-      <li>Video Games</li>
-      <li>Cars</li>
-      <li>Strategy</li>
-    </ul>
-    </div>
-    <div id="quote">
-    <h1></h1>
-    <q>Money in the bank, Pimping ain't easy</q>
-    <p>- Doublelift</p>
-    </div>
-    <div id="songs">
-    <h3><u>My Most Listened To Songs</u></h3>
-    <ol type="1">
-      <li>Anime Music that is too hipster for everyone else :^)</li>
-      <li>Masked Innocence - NGC 3.14 Feat. Hatsune Miku</li>
-      <li>Swimming Inside Pools - Chuunibyou x Kendrick Lamar</li>
-      <li>Samurai Champloo Ending Theme (Hip Hop Remix) by SparX Beats</li>
-      <li>Shika No Uta (Jazz Session) - Minmi Feat. Nujabes</li>
-      <li>Yunomi - Wakusei Rabbit (ft. Toriena)</li>
-    </ol>
-    </div>
-    <img class="shiro" height="400" src="images/shiro.png"></img>
-    <img height="200" src="images/lewd.jpg"></img>
-    <img width="250" src="images/poster.png"></img>
+      <div class="content">
+      <div id="name">
+        <img class="cat" height="110" src="images/swag.png"></img>
+        <h1 style="position:relative;left:120px;bottom:130px">About Me!</h1>
+        <h2 style="position:relative;left:120px;bottom:140px">Jimmy Pham<br>Grade 11</br></h2>
+      </div>
+      <div class="table">
+        <table>
+          <tr><th>Period</th><th>Class</th></tr>
+          <tr><td>1</td><td>Computer Graphics 2</td></tr>
+          <tr><td>2</td><td>US History</td></tr>
+          <tr><td>3</td><td>Vietnamese 2</td></tr>
+          <tr><td>4</td><td>AP Comp. Sci. Prin.</td></tr>
+          <tr><td>5</td><td>English 3</td></tr>
+          <tr><td>6</td><td>Algebra 2</td></tr>
+        </table>
+      </div>
+      <div class="hobbies">
+        <p><b><u>My Hobbies</u></b></p>
+          <ul>
+            <li>Helping People!</li>
+            <li>Computers</li>
+            <li>Video Games</li>
+            <li>Cars</li>
+            <li>Strategy</li>
+          </ul>
+      </div>
+      <div id="quote">
+        <h3>Quote</h3>
+        <q>Money in the bank, Pimping ain't easy</q>
+        <p>- Doublelift</p>
+      </div>
+      <div id="songs">
+        <h3><u>My Most Listened To Songs</u></h3>
+          <ol type="1">
+            <li>Anime Music that is too hipster for everyone else :^)</li>
+             <li>Masked Innocence - NGC 3.14 Feat. Hatsune Miku</li>
+            <li>Swimming Inside Pools - Chuunibyou x Kendrick Lamar</li>
+            <li>Samurai Champloo Ending Theme (Hip Hop Remix) by SparX Beats</li>
+            <li>Shika No Uta (Jazz Session) - Minmi Feat. Nujabes</li>
+            <li>Yunomi - Wakusei Rabbit (ft. Toriena)</li>
+          </ol>
+      </div>
+      <img class="shiro" height="400" src="images/shiro.png"></img>
+      <img class="shiro" height="200" src="images/lewd.jpg"></img>
+      <img class="shiro" width="250" src="images/poster.png"></img>
     </div>
     <div class="footer">
+    <p>Email me at ninjawaffulz@gmail.com or 18jpham2@ggusd.net</p>
     <a href=sources.html>Sources</a>
-    <p>Contact Information<br>I use the username Ninjawaffulz for literally everything just google me.</p>
+    <a href="https://www.facebook.com/ninjawaffulz">Facebook</a>
     <a href="http://lmgtfy.com/?q=Ninjawaffulz">Google Me</a>
+    <a href="https://www.twitch.tv/ninjawaffulz">Twitch.tv</a>
     </div>
   </div>
   </body>
