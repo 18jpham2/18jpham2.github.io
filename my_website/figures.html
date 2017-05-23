@@ -56,6 +56,7 @@
             float:left;
             margin-left:10px;
             margin-top:10px;
+            border-collapse:collapse;
         }
         .sidebar {
             border: 2px gray solid;
@@ -90,7 +91,7 @@
         }
         .footer{position:absolute;
             height:150px;
-            top:1100px;
+            top:900px;
             width:100%;
             background-color:white;
             border-top:2px gray solid;
@@ -99,6 +100,9 @@
             height: 150px; /* .push must be the same height as .footer */
             margin-bottom: 0px;
         }
+        #PKE{border-bottom:2px gray solid;}
+        #NDIC{border-bottom:2px gray solid;}
+        #DHKE{border-bottom:2px gray solid;}
         </style>
         <body>
             <div class="wrapper">
@@ -138,31 +142,39 @@
                 </div>
                 <div class="table">
                     <table>
-                        <tr>
+                        <tr id="PKE">
                             <th>Public Key Encryption</th>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr id="PKE">
+                            <td id="PKE">
                                 <img width="344px" src="images/pcrypt.gif"></img>
                             </td>
-                            <td>
+                            <td id="PKE">
                                 <p>Public Key Encryption works by having two computers generate two keys, a public and a private one. They can exchange secret messages by encrypting the information using a public key and the other decrypts it by combining their private key with the public one.</p>
                             </td>
                         </tr>
+                        <tr id="NDIC">
+                            <th>New Directions in Cryptography</th>
+                        </tr>
+                        <tr id="NDIC">
+                            <td id="NDIC">
+                                <img width="344px" src="images/book.jpg"></img>
+                            </td>
+                            <td id="NDIC">
+                                <p>A paper written by Diffie and Hellman on November 1976 which was submitted to the IEEE. This is a groundbreaking paper that introduced a new method of distributing cryptographic key.
+                                This includes the Diffie-Hellman Key exchange revolutionized the way people communicate and transfer data.
+                            </td>
+                        </tr>
                         <tr>
-                            <td>
-                                <img width="344px" src="https://pbs.twimg.com/media/CbWjOH1UAAEpOnP.jpg"></img>
-                            </td>
-                            <td>
-                                <p>Public Key Encryption works by</p>
-                            </td>
+                            <th>Diffie-Hellman Key Exchange</th>
                         </tr>
                         <tr>
                             <td>
                                 <img width="344px" src="http://img.tfd.com/cde/_DIFFHEL.GIF"></img>
                             </td>
                             <td>
-                                <p>Public Key Encryption works by</p>
+                                <p>Diffie-Hellman ey exchange is important because it allows people to share secret information
+                                with each other without enabling observers to discover the contents or necessary keys to gain access to them.</p>
                             </td>
                         </tr>
                     </table>
@@ -170,7 +182,7 @@
                 <div class="sidebar">
                     <table>
                         <tr>
-                            <th><u>Facts:</u></th>
+                            <th><u>Timeline:</u></th>
                         </tr>
                         <tr>
                             <td>
@@ -201,20 +213,14 @@
                         <tr>
                             <td>
                                 <ul>
-                                    <li>Born in New York, 1945</li>
-                                    <li>Graduated from Bronx High School of Science in 1962</li>
-                                    <li>Received a Bachelor in electrical engineering from New York University in 1966</li>
-                                    <li>Received a Master in 1967 and a Ph. D. in 1969 from Stanford</li>
-                                    <li>Left IBM to teach in Electrical Engineering at MIT in 1969</li>
-                                    <li>Published New Directions in Cryptography in 1976</li>
-                                    <li>Played a leading role in the late 1970s' and early 1980s' first ''crypto war''</li>
-                                    <li>Worked with Soviet scientists in the 1980s to reduce nuclear weapons</li>
-                                    <li>Won the IEEE Centennial Medal in 1984</li>
-                                    <li>Won the Electronic Frontier Foundation Pioneer Award in 1994</li>
-                                    <li>Became professor emeritus in electrical engineering at Stanford University in 1996</li>
-                                    <li>Was elected to the National Academy of Engineering in 2002</li>
-                                    <li>Won the ACM Turing Award (Nobel Prize of Computer Science) in 2015</li>
-                                </ul>
+                                    <li>Hellman invented public key cryptography with his colleagues, Diffie and Merkle. The Diffie-Hellman key exchange was one of the first public-key protocols and was succeeded by RSA.
+                                    This is important because it enables secure Internet transactions which involve the transferring of trillions of dollars everyday.
+                                    Their insights enable companies and individuals to transfer and communicate data safely in this digital age.
+                                    </li>
+                                    <li>Another contribution by Hellman is that he strongly advocated for cryptographic researchers' right to publish their work and the 
+                                    public's right to strong encryption that can resist agencies such as the National Security Agency (NSA). He was against the Data Encryption Standard which the NSA has endorsed to use
+                                    brute force against it. His concern for the right to privacy of the people is noble and should be held as an example in which freedom triumphs surveillance.
+                                    </li>
                             </tr>
                         </td>
                     </table>
